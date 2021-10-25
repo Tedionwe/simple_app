@@ -57,11 +57,11 @@ class _IncomingState extends State<Incoming> {
                   child: Stack(
                     children: [
                       Container(
-                        margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
-                        child: SvgPicture.asset('assets/eta.svg')),
+                        margin: EdgeInsets.fromLTRB(20, 0, 0, 0),
+                        child: SvgPicture.asset('assets/eta.svg', width: 70,)),
                       Container(
-                        margin: EdgeInsets.fromLTRB(30, 60, 0, 0),
-                        child: SvgPicture.asset('assets/root.svg')),
+                        margin: EdgeInsets.fromLTRB(30, 40, 0, 0),
+                        child: SvgPicture.asset('assets/root.svg', width: 175,)),
                     ],
                   ),
                 ),

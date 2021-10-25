@@ -18,11 +18,14 @@ class _BottomSheetWidget2State extends State<BottomSheetWidget2> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 400,
+      width: 500,
       height: 330,
       decoration: BoxDecoration(
             color: Colors.white,
-            borderRadius: BorderRadius.circular(40),
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(40),
+               topRight: Radius.circular(40)
+            ),
             boxShadow: [
                 BoxShadow(
                     color: Color.fromRGBO(204, 202, 202, 0.25) ,
